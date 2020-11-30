@@ -29,8 +29,6 @@ def weather():
 
 @app.route('/myweather', methods = ["GET","POST"])
 def myweather():
-    #latitude = request.form["lat"]
-    #return render_template('myweather.html')
 
     if request.method =="POST":    
         latitude = request.form["lat"]

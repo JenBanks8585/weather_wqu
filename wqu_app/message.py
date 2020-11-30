@@ -61,9 +61,11 @@ def greet(ip_address):
 def weather_data(ip_address):
  
     coords = get_geolocation(ip_address)
-    weather_data = get_weather(coords)[1]
+    a = get_weather(coords)[1]
+    b = [(a['properties']['timeseries'][i]['time'], a['properties']['timeseries'][i]['data']['instant']['details']) for i in range(len(a['properties']['timeseries']))]
 
-    return weather_data
+
+    return b
 
 if __name__=='__main__':
     print(greet())
