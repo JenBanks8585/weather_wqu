@@ -17,3 +17,9 @@ This project demonstrates how to use Python to create web applications. It is pr
 
 ### Prerequisites
 All required Python packages can be found in the requirements.txt file. Additionally, the provided Makefile can be used to create a virtual environment by running make venv. You will also need a Heroku account, and to have installed the Heroku CLI.
+
+### Addons
+
+
+### Special Thanks to:
+Mr Don Fox from WQU, for teaching us Unit1 DS track
