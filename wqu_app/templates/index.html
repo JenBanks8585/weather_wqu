@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% set active_page = "index" %}
+
+
+
+{% block content %}
+    <head>
+        <title> WQU PROJECT </title>
+    <head>
+        <h1> WQU Project </h1>
+       
+        
+    <body>
+        <div class = "text-content">
+            <h3> Information based on your IP Address </h3>
+            <p>{{message | safe }} </p>
+        </div>
+    </body>
+{% endblock %}
